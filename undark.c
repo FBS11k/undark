@@ -134,7 +134,7 @@ struct sqlite_leaf_header {
 
 
 char version[] = "undark version 0.7, by Paul L Daniels ( pldaniels@pldaniels.com )\n";
-char help[] = "-i <sqlite DB> [-d] [-v] [-V|--version] [--cellcount-min=<count>] [--cellcount-max=<count>] [--rowsize-min=<bytes>] [--rowsize-max=<bytes>] [--no-blobs] [--blob-size-limit=<bytes>] [--page-size=<bytes>] [--page-start=<number>] [--page-end=<number>] [--freespace] [--freespace-minimum=<bytes>]\n"
+char help[] = "-i <msgstore.db> [-d] [-v] [-V|--version] [--cellcount-min=<count>] [--cellcount-max=<count>] [--rowsize-min=<bytes>] [--rowsize-max=<bytes>] [--no-blobs] [--blob-size-limit=<bytes>] [--page-size=<bytes>] [--page-start=<number>] [--page-end=<number>] [--freespace] [--freespace-minimum=<bytes>]\n"
 "\t-i: input SQLite3 format database\n"
 "\t-d: enable debugging output (very large dumps)\n"
 "\t-v: enable verbose output\n"
